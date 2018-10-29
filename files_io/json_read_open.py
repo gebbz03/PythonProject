@@ -13,3 +13,4 @@ data={
 with open('json_data.json','r') as fobj:
     json_data=json.load(fobj)
     print(json_data)
+    
