@@ -12,12 +12,12 @@ mongo=PyMongo(app)
 
 def add():
     user=mongo.db.users
-    user.insert({'name':'Unknow','language':'PyJasdadCasd'})
+    user.insert({'name':'Gebb Ebero','language':'Java'})
 
     
-    user.insert({'name':'Person 2','language':'Java'})
-    user.insert({'name':'Person 3','language':'C'})
-    user.insert({'name':'Person 4','language':'PHP'})
+    user.insert({'name':'Edelyn Garcia','language':'PHP'})
+    user.insert({'name':'Allan Espinosa','language':'HTML'})
+    user.insert({'name':'Ryan Regis','language':'CSS'})
     
 
     return 'Added User!'
